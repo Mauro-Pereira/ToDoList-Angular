@@ -1,6 +1,41 @@
-# TodoList
+# TodoList usando Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
+![screenshot](./screenshot/todo-list.png)
+
+## Descrição
+
+Este projeto é uma aplicação de lista de tarefas (TodoList) desenvolvida utilizando Angular. O objetivo é fornecer uma interface simples e intuitiva para a gestão de tarefas diárias, permitindo adicionar e remover itens da lista.
+
+## Funcionalidades
+
+- Adicionar novas tarefas
+- Marcar tarefas como concluídas
+- Remover tarefas da lista
+
+## Tecnologias Utilizadas
+
+- [Angular](https://angular.io/) - Framework front-end
+- [TypeScript](https://www.typescriptlang.org/) - Superset de JavaScript
+- [Boostrap](https://getbootstrap.com/) - Boostrap
+
+
+### O que é um "TodoList"?
+
+Um "TodoList" é uma aplicação simples que permite aos usuários criar uma lista de tarefas a serem realizadas. Cada tarefa pode ser adicionada à lista, marcada como concluída, editada ou removida. Esse tipo de aplicação é muito comum e serve como um excelente exercício prático para iniciantes em desenvolvimento de software.
+
+### Importância de criar um "TodoList" ao aprender um novo framework de front-end
+
+1. **Conceitos Básicos**: Um "TodoList" cobre muitos conceitos fundamentais de um framework de front-end, como a criação e manipulação de componentes, gerenciamento de estado e manipulação de eventos.
+
+2. **Interatividade**: Ao trabalhar com a adição, edição e remoção de tarefas, dar para aprender a gerenciar a interatividade de uma aplicação, uma habilidade essencial para desenvolvedores front-end.
+
+3. **Boas Práticas**: Implementar um "TodoList" permite que se pratique e aprenda boas práticas de código, como a separação de responsabilidades (serviços, componentes) e a organização do projeto.
+
+4. **Reutilização de Componentes**: Pode-se criar componentes reutilizáveis, uma prática importante ao trabalhar com frameworks modernos como Angular.
+
+5. **Feedback Imediato**: Ver as mudanças em tempo real enquanto desenvolve é motivador e ajuda a entender melhor como o framework funciona.
+
+6. **Base para Projetos Maiores**: Compreender e implementar um "TodoList" fornece uma base sólida para projetos mais complexos. Muitos conceitos podem ser escalados para aplicações maiores.
 
 ## Development server
 

@@ -1,4 +1,15 @@
-.todo-container {
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
+.todo-list {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
@@ -6,6 +17,7 @@
   border-radius: 10px;
   text-align: center;
 }
+
 input {
   width: calc(100% - 22px);
   padding: 10px;
@@ -13,6 +25,7 @@ input {
 }
 button {
   margin-left: 5px;
+  color: white;
 }
 .completed {
   text-decoration: line-through;
