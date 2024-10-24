@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { FootComponent } from './foot/foot.component';
 import { LoginComponent } from "./login/login.component";
+import { RegisterComponent } from './register/register.component';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,8 @@ import { LoginComponent } from "./login/login.component";
     RouterOutlet,
     HeaderComponent,
     FootComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
