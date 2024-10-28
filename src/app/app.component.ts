@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { FootComponent } from './foot/foot.component';
 import { LoginComponent } from "./login/login.component";
 import { RegisterComponent } from './register/register.component';
+import { HomeComponent } from './home/home.component';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,8 @@ import { RegisterComponent } from './register/register.component';
     HeaderComponent,
     FootComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    HomeComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
