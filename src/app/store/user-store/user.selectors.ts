@@ -13,6 +13,11 @@ export const selectSelectedUser = createSelector(
   (state: UserState) => state.selectedUser
 );
 
+export const selectLoading = createSelector(
+  selectUserState,
+  (state) => state.loading
+);
+
 export const selectUserError = createSelector(
   selectUserState,
   (state: UserState) => state.error
