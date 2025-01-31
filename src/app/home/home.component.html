@@ -16,6 +16,14 @@
     <div class="container-button">
         <button class="complete-button">Complete</button>
         <button class="delete-button">Delete</button>
-        <button class="update-button">Update</button>
+        <button class="update-button" (click)="openModal()" >Update</button>
     </div>
 </div>
+
+<app-task-modal
+  [isModalOpen]="isModalOpen"
+  [isEditMode]="isEditMode"
+  [task]="selectedTask"
+  (close)="closeModal()"
+  (submit)="handleSubmit($event)"
+></app-task-modal>
