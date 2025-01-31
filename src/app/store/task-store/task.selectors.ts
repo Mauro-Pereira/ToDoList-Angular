@@ -8,6 +8,11 @@ export const selectTasks = createSelector(
   (state: TaskState) => state.tasks
 );
 
+export const selectMyTasks = createSelector(
+  selectTaskState,
+  (state: TaskState) => state.myTasks
+);
+
 export const selectTaskError = createSelector(
   selectTaskState,
   (state: TaskState) => state.error

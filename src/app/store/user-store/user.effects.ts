@@ -24,6 +24,18 @@ export class UserEffects {
     )
   );
 
+  loadUserById$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(UserActions.loadUserById),
+      mergeMap(action =>
+        this.userService.getUserById(action.id).pipe(
+          map(user => UserActions.loadUserByIdSuccess({ user })),
+          catchError(error => of(UserActions.loadUserByIdFailure({ error })))
+        )
+      )
+    )
+  );
+
   addUser$ = createEffect(() =>
     this.actions$.pipe(
       ofType(UserActions.addUser),
